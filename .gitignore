@@ -1,0 +1,17 @@
+# build output
+build/
+*.elf
+*.nro
+*.nacp
+*.nso
+*.map
+
+# game binaries and data: never commit these
+*.so
+*.ras
+*.msf
+data_libs/
+release/
+
+# local-only helper (devkitPro's installer is the supported way)
+tools/setup_devkitpro.sh
